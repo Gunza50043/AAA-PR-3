@@ -10,28 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace AAA_PR_3
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для WindowQuestion.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class WindowQuestion : Window
     {
-        public MainWindow()
+        public WindowQuestion()
         {
             InitializeComponent();
-
-        }
-        WindowQuestion WinQust = new WindowQuestion();
-        MainWindow MWin = new MainWindow();
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        { 
-            //WinQust.Show();
-            //MWin.ShowDialog();
         }
     }
 }
