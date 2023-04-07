@@ -1,0 +1,73 @@
+﻿<Window x:Class="AAA_PR_3.WindowPlay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AAA_PR_3"
+        mc:Ignorable="d"
+        Title="WindowPlay" Height="600" Width="858" ResizeMode="NoResize">
+    
+    <Grid Background="#FFC5F8FF" Height="584" VerticalAlignment="Center" HorizontalAlignment="Center" Width="858">
+
+            <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="1" FontSize="50" TextAlignment="Center" VerticalAlignment="Top" Height="68" Width="192" Background="#FF5BE8FB" FontFamily="Bauhaus 93" TextDecorations="Underline"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,78,0,0" TextWrapping="Wrap" Text="2" FontSize="50" TextAlignment="Center" VerticalAlignment="Top" Height="68" Width="192" Background="#FF5BE8FB" FontFamily="Bauhaus 93" TextDecorations="Underline"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,146,0,0" TextWrapping="Wrap" Text="3" FontSize="50" TextAlignment="Center" VerticalAlignment="Top" Height="68" Width="192" Background="#FF5BE8FB" FontFamily="Bauhaus 93" TextDecorations="Underline"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,214,0,0" TextWrapping="Wrap" Text="4" FontSize="50" TextAlignment="Center" VerticalAlignment="Top" Height="68" Width="192" Background="#FF5BE8FB" FontFamily="Bauhaus 93" TextDecorations="Underline"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,282,0,0" TextWrapping="Wrap" Text="5" FontSize="50" TextAlignment="Center" VerticalAlignment="Top" Height="68" Width="192" Background="#FF5BE8FB" FontFamily="Bauhaus 93" TextDecorations="Underline"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,350,0,0" TextWrapping="Wrap" Text="6" FontSize="50" TextAlignment="Center" VerticalAlignment="Top" Height="68" Width="192" Background="#FF5BE8FB" Foreground="Black" FontFamily="Bauhaus 93" TextDecorations="Underline"/>
+
+            <StackPanel Orientation="Horizontal" Margin="216,10,0,0" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left" Width="619">
+                <Button Content="100" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93" Click="Button_Click"/>
+                <Button Content="200" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
+                <Button Content="300" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
+                <Button Content="400" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="216,78,0,0" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left" Width="632">
+                <Button Content="100" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button Content="200" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button Content="300" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="216,146,0,0" Height="71" VerticalAlignment="Top" HorizontalAlignment="Left" Width="632">
+                <Button Content="100" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button Content="200" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button Content="300" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="216,217,0,0" HorizontalAlignment="Left" Width="632" Height="65" VerticalAlignment="Top">
+                <Button Content="100" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
+                <Button Content="200" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
+                <Button Content="300" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
+                <Button Content="400" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="216,282,0,0" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left" Width="632">
+                <Button Content="100" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button Content="200" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button Content="300" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="216,350,0,0" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left" Width="632">
+                <Button Content="100" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button Content="200" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button Content="300" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+            </StackPanel>
+
+            <Label x:Name="specific_player" Content="Игрок" Margin="93,432,687,127"/>
+            <Label x:Name="score_player1" Content="0" HorizontalAlignment="Left" Margin="256,478,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.607,-0.616"/>
+            <Label x:Name="score_player2" Content="0" HorizontalAlignment="Center" Margin="0,478,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="score_player3" Content="0" HorizontalAlignment="Left" Margin="589,478,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="score_player4" Content="0" HorizontalAlignment="Left" Margin="744,473,0,0" VerticalAlignment="Top"/>
+
+            <Label Content="Игрок 1" Margin="242,432,538,127"/>
+            <Label Content="Игрок 2" Margin="406,432,374,127"/>
+            <Label Content="Игрок 3" Margin="566,432,214,127"/>
+            <Label Content="Игрок 4" Margin="721,432,59,127"/>
+            <Label Content="Ход игрока: " Margin="10,432,770,127"/>
+        </Grid>
+</Window>

@@ -57,6 +57,9 @@
     </ApplicationDefinition>
     <Compile Include="Question.cs" />
     <Compile Include="QuestionDB.cs" />
+    <Compile Include="WindowPlay.xaml.cs">
+      <DependentUpon>WindowPlay.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WindowQuestion.xaml.cs">
       <DependentUpon>WindowQuestion.xaml</DependentUpon>
     </Compile>
@@ -72,6 +75,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="WindowPlay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WindowQuestion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

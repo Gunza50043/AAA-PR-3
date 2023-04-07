@@ -25,13 +25,36 @@ namespace AAA_PR_3
             InitializeComponent();
 
         }
-        WindowQuestion WinQust = new WindowQuestion();
-        MainWindow MWin = new MainWindow();
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        { 
-            //WinQust.Show();
-            //MWin.ShowDialog();
+        {
+            WindowPlay WinPlay = new WindowPlay();
+            WinPlay.Show();
+            this.Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            WindowPlay WinPlay = new WindowPlay();
+            WinPlay.Show();
+            this.Close();
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            WindowPlay WinPlay = new WindowPlay();
+            WinPlay.Show();
+            this.Close();
+
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            WindowPlay WinPlay = new WindowPlay();
+            WinPlay.Show();
+            this.Close();
+
         }
     }
 }
