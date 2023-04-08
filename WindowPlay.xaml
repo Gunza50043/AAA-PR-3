@@ -58,7 +58,8 @@
                 <Button Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
             </StackPanel>
 
-            <Label x:Name="specific_player" Content="Игрок" Margin="93,432,687,127"/>
+            <Label x:Name="current_player" Content="Игрок" Margin="116,432,696,127"/>
+            <Label x:Name="colvo_player" Content="1" Margin="116,461,664,98"/>
             <Label x:Name="score_player1" Content="0" HorizontalAlignment="Left" Margin="256,478,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.607,-0.616"/>
             <Label x:Name="score_player2" Content="0" HorizontalAlignment="Center" Margin="0,478,0,0" VerticalAlignment="Top"/>
             <Label x:Name="score_player3" Content="0" HorizontalAlignment="Left" Margin="589,478,0,0" VerticalAlignment="Top"/>
@@ -69,5 +70,6 @@
             <Label Content="Игрок 3" Margin="566,432,214,127"/>
             <Label Content="Игрок 4" Margin="721,432,59,127"/>
             <Label Content="Ход игрока: " Margin="10,432,770,127"/>
-        </Grid>
+            <Label Content="Кол-во игроков:" Margin="10,460,742,99"/>
+    </Grid>
 </Window>

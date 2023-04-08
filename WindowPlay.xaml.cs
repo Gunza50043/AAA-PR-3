@@ -19,21 +19,26 @@ namespace AAA_PR_3
     /// </summary>
     public partial class WindowPlay : Window
     {
+        WindowQuestion WinQust = new WindowQuestion();
+        MainWindow MWin = new MainWindow();
+        QuestionDB QB = new QuestionDB();
+        
+
         public WindowPlay()
         {
             InitializeComponent();
+            QB.inizInitialize();
         }
         public void openQuest()
         {
-            WindowQuestion WinQust = new WindowQuestion();
-            MainWindow MWin = new MainWindow();
             WinQust.ShowDialog();
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             openQuest();
+            WinQust.textBlockQuestion.Text = QB.QuestionList[1].question
+            WinQust.textBlockAnswer.Text = QB.QuestionList[1].answer.ToString();
         }
     }
 }

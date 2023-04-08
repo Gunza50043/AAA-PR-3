@@ -20,10 +20,10 @@ namespace AAA_PR_3
     /// </summary>
     public partial class MainWindow : Window
     {
+        QuestionDB QB = new QuestionDB();
         public MainWindow()
         {
             InitializeComponent();
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -31,6 +31,7 @@ namespace AAA_PR_3
             WindowPlay WinPlay = new WindowPlay();
             WinPlay.Show();
             this.Close();
+            WinPlay.colvo_player.Content = 1;
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -38,6 +39,7 @@ namespace AAA_PR_3
             WindowPlay WinPlay = new WindowPlay();
             WinPlay.Show();
             this.Close();
+            WinPlay.colvo_player.Content = 2;
 
         }
 
@@ -46,6 +48,8 @@ namespace AAA_PR_3
             WindowPlay WinPlay = new WindowPlay();
             WinPlay.Show();
             this.Close();
+            WinPlay.colvo_player.Content = 3;
+
 
         }
 
@@ -54,6 +58,7 @@ namespace AAA_PR_3
             WindowPlay WinPlay = new WindowPlay();
             WinPlay.Show();
             this.Close();
+            WinPlay.colvo_player.Content = 4;
 
         }
     }

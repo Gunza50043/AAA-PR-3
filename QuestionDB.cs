@@ -8,14 +8,24 @@ namespace AAA_PR_3
 {
     internal class QuestionDB
     {
+        
         internal List<Question> QuestionList { get; private set; }
         public void inizInitialize()
         {
             QuestionList = new List<Question>
             {
-                new Question("Кто я "," я футбольный мячик")
+                new Question("Кто я "," я футбольный мячик"),
+                new Question("asd","вфыв")
             };
         }
+        
+        /*
+        List<Question> QuestionList = new List<Question>()
+        {
+            new Question("Кто я "," я футбольный мячик"),
+            new Question("asd","вфыв")
+        };
+        */
 
     }
 }
