@@ -36,9 +36,10 @@ namespace AAA_PR_3
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+            WinQust.textBlockQuestion.Text = QB.QuestionList[0].question;
+            WinQust.textBlockAnswer.Text = QB.QuestionList[0].answer.ToString();
             openQuest();
-            WinQust.textBlockQuestion.Text = QB.QuestionList[1].question
-            WinQust.textBlockAnswer.Text = QB.QuestionList[1].answer.ToString();
         }
     }
 }
