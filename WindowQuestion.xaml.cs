@@ -21,7 +21,7 @@ namespace AAA_PR_3
     {
         public WindowQuestion()
         {
-            InitializeComponent();
+            InitializeComponent ();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
