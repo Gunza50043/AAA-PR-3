@@ -19,6 +19,7 @@ namespace AAA_PR_3
     /// </summary>
     public partial class WindowQuestion : Window
     {
+        MainWindow MW = new MainWindow();
         public WindowQuestion()
         {
             InitializeComponent ();
@@ -26,7 +27,14 @@ namespace AAA_PR_3
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            textBlockAnswer_Copy2.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#000061FF");
 
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            //MW.
+            this.Close();
         }
     }
 }

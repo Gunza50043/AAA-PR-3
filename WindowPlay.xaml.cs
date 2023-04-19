@@ -26,6 +26,7 @@ namespace AAA_PR_3
 
         public WindowPlay()
         {
+
             InitializeComponent();
             QB.inizInitialize();
         }
@@ -36,9 +37,10 @@ namespace AAA_PR_3
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            b11.IsEnabled= false;
             WinQust.textBlockQuestion.Text = QB.QuestionList[0].question;
             WinQust.textBlockAnswer.Text = QB.QuestionList[0].answer.ToString();
+
             openQuest();
         }
     }

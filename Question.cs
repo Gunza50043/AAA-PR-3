@@ -10,6 +10,7 @@ namespace AAA_PR_3
     {
         private string _question;
         private string _answer;
+        private int _bal;
         public string question 
         {
             get
@@ -32,11 +33,24 @@ namespace AAA_PR_3
                 answer = _answer; 
             }
         }
+        public int bal
+        {
+            get
+            {
+                return _bal;
+            }
+            set
+            {
+                bal = _bal;
+            }
+        }
 
-        public Question(string question, string answer )
+
+        public Question(string question, string answer, int bal )
         {
             _question = question;
             _answer = answer;
+            _bal = bal;
         }
     }
 }
