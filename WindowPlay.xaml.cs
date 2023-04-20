@@ -38,6 +38,7 @@ namespace AAA_PR_3
             get { return _colvoPlayer; }
             set { _colvoPlayer = value; }
         }
+
         //Переменная и свойство текущегго игрока
         private int _currentPlyer = 1;
         public int CurrentPlyer
@@ -45,13 +46,15 @@ namespace AAA_PR_3
             get { return _currentPlyer; }
             set { _currentPlyer = value; }
         }
+
         //переменная и свойство балов игроков
-        
         private int _score;
         public int Score
         {   get { return _score; } 
             set { _score = value; } 
         }
+
+        //переменные и свойства для счета балов
         private int _player1;
         public int Player1
         {   get { return _player1; } 
@@ -82,6 +85,7 @@ namespace AAA_PR_3
             WinQusLOCAL.ShowDialog();
 
         }
+
         //Метод чередующий игроков
         public void SkipPleyer() 
         {
@@ -95,7 +99,9 @@ namespace AAA_PR_3
                 current_player.Content = CurrentPlyer;
             }
         }
+        //переменная индекса списка
         public int namber;
+        //метод объявляющий вопрос
         private void QuestionAAA()
         {
             WinQus.textBlockQuestion.Text = QB.QuestionList[namber].question.ToString();

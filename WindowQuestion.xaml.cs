@@ -26,16 +26,15 @@ namespace AAA_PR_3
             WinPlay = winPlay;
         }
         
+        //Кнопка открывающая ответ на вопрос
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             textBlockAnswer_Copy2.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#000061FF");
 
         }
-
+        //кнопка правильного ответа которая засчитывает балы в зависимости от текущего игрока
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
-            
             if (WinPlay.CurrentPlyer == 1)
             {
                 WinPlay.Player1 += WinPlay.Score;
@@ -55,12 +54,11 @@ namespace AAA_PR_3
             {
                 WinPlay.Player4 += WinPlay.Score;
                 WinPlay.score_player4.Content = WinPlay.Player4;
-                //WinPlay.score_player4.Content = WinPlay.Score;
             }
             WinPlay.SkipPleyer();
             this.Close();
         }
-
+        //кнопка неправильного ответа которая просто пропускает игрока
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             WinPlay.SkipPleyer();

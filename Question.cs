@@ -45,7 +45,7 @@ namespace AAA_PR_3
                 Score = _score;
             }
         }
-
+        // конструктор для списка
         public Question(string question, string answer, int score )
         {
             _question = question;
