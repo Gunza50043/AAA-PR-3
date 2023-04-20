@@ -19,12 +19,13 @@ namespace AAA_PR_3
     /// </summary>
     public partial class WindowQuestion : Window
     {
-        MainWindow MW = new MainWindow();
-        public WindowQuestion()
+        WindowPlay WinPlay;
+        public WindowQuestion(WindowPlay winPlay)
         {
             InitializeComponent ();
+            WinPlay = winPlay;
         }
-
+        
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             textBlockAnswer_Copy2.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#000061FF");
@@ -33,7 +34,36 @@ namespace AAA_PR_3
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            //MW.
+
+            
+            if (WinPlay.CurrentPlyer == 1)
+            {
+                WinPlay.Player1 += WinPlay.Score;
+                WinPlay.score_player1.Content = WinPlay.Player1;
+            }
+            if (WinPlay.CurrentPlyer == 2)
+            {
+                WinPlay.Player2 += WinPlay.Score;
+                WinPlay.score_player2.Content = WinPlay.Player2;
+            }
+            if (WinPlay.CurrentPlyer == 3)
+            {
+                WinPlay.Player3 += WinPlay.Score;
+                WinPlay.score_player3.Content = WinPlay.Player3;
+            }
+            if (WinPlay.CurrentPlyer == 4)
+            {
+                WinPlay.Player4 += WinPlay.Score;
+                WinPlay.score_player4.Content = WinPlay.Player4;
+                //WinPlay.score_player4.Content = WinPlay.Score;
+            }
+            WinPlay.SkipPleyer();
+            this.Close();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            WinPlay.SkipPleyer();
             this.Close();
         }
     }

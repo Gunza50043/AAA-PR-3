@@ -18,47 +18,47 @@
 
             <StackPanel Orientation="Horizontal" Margin="216,10,0,0" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left" Width="619">
                 <Button x:Name="b11" Content="100" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93" Click="Button_Click"/>
-                <Button x:Name="b12" Content="200" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
-                <Button x:Name="b13" Content="300" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
-                <Button x:Name="b14" Content="400" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
+                <Button x:Name="b12" Content="200" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93" Click="b12_Click"/>
+                <Button x:Name="b13" Content="300" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93" Click="b13_Click"/>
+                <Button x:Name="b14" Content="400" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93" Click="b14_Click"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" Margin="216,78,0,0" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left" Width="632">
-                <Button x:Name="b21" Content="100" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
-                <Button x:Name="b22" Content="200" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
-                <Button x:Name="b23" Content="300" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
-                <Button x:Name="b24" Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button x:Name="b21" Content="100" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b21_Click"/>
+                <Button x:Name="b22" Content="200" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b22_Click"/>
+                <Button x:Name="b23" Content="300" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b23_Click"/>
+                <Button x:Name="b24" Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b24_Click"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" Margin="216,146,0,0" Height="71" VerticalAlignment="Top" HorizontalAlignment="Left" Width="632">
-                <Button x:Name="b31" Content="100" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
-                <Button x:Name="b32" Content="200" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
-                <Button x:Name="b33" Content="300" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
-                <Button x:Name="b34" Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button x:Name="b31" Content="100" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b31_Click"/>
+                <Button x:Name="b32" Content="200" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b32_Click"/>
+                <Button x:Name="b33" Content="300" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b33_Click"/>
+                <Button x:Name="b34" Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b34_Click"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" Margin="216,217,0,0" HorizontalAlignment="Left" Width="632" Height="65" VerticalAlignment="Top">
-                <Button x:Name="b41" Content="100" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
-                <Button x:Name="b42" Content="200" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
-                <Button x:Name="b43" Content="300" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
-                <Button x:Name="b44" Content="400" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93"/>
+                <Button x:Name="b41" Content="100" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93" Click="b41_Click"/>
+                <Button x:Name="b42" Content="200" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93" Click="b42_Click"/>
+                <Button x:Name="b43" Content="300" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93" Click="b43_Click"/>
+                <Button x:Name="b44" Content="400" Width="154" Background="#FF5BA7FB" FontSize="48" FontFamily="Bauhaus 93" Click="b44_Click"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" Margin="216,282,0,0" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left" Width="632">
-                <Button x:Name="b51" Content="100" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
-                <Button x:Name="b52" Content="200" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
-                <Button x:Name="b53" Content="300" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
-                <Button x:Name="b54" Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button x:Name="b51" Content="100" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b51_Click"/>
+                <Button x:Name="b52" Content="200" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b52_Click"/>
+                <Button x:Name="b53" Content="300" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b53_Click"/>
+                <Button x:Name="b54" Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b54_Click"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" Margin="216,350,0,0" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left" Width="632">
-                <Button x:Name="b61" Content="100" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
-                <Button x:Name="b62" Content="200" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
-                <Button x:Name="b63" Content="300" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
-                <Button x:Name="b64" Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48"/>
+                <Button x:Name="b61" Content="100" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b61_Click"/>
+                <Button x:Name="b62" Content="200" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b62_Click"/>
+                <Button x:Name="b63" Content="300" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b63_Click"/>
+                <Button x:Name="b64" Content="400" Width="154" Background="#FF5BA7FB" FontFamily="Bauhaus 93" FontSize="48" Click="b64_Click"/>
             </StackPanel>
 
-            <Label x:Name="current_player" Content="Игрок" Margin="116,432,696,127"/>
+            <Label x:Name="current_player" Content="1" Margin="116,432,696,127"/>
             <Label x:Name="colvo_player" Content="1" Margin="116,461,664,98"/>
             <Label x:Name="score_player1" Content="0" HorizontalAlignment="Left" Margin="256,478,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.607,-0.616"/>
             <Label x:Name="score_player2" Content="0" HorizontalAlignment="Center" Margin="0,478,0,0" VerticalAlignment="Top"/>

@@ -9,8 +9,6 @@ namespace AAA_PR_3
     internal class Question
     {
         private string _question;
-        private string _answer;
-        private int _bal;
         public string question 
         {
             get
@@ -22,6 +20,8 @@ namespace AAA_PR_3
                 question = _question;
             }
         }
+
+        private string _answer;
         public string answer 
         {
             get 
@@ -33,24 +33,24 @@ namespace AAA_PR_3
                 answer = _answer; 
             }
         }
-        public int bal
+        private int _score;
+        public int Score
         {
             get
             {
-                return _bal;
+                return _score;
             }
             set
             {
-                bal = _bal;
+                Score = _score;
             }
         }
 
-
-        public Question(string question, string answer, int bal )
+        public Question(string question, string answer, int score )
         {
             _question = question;
             _answer = answer;
-            _bal = bal;
+            _score = score;
         }
     }
 }

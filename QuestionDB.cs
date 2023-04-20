@@ -15,7 +15,34 @@ namespace AAA_PR_3
             QuestionList = new List<Question>
             {
                 new Question("Кто я "," я футбольный мячик",100),
-                new Question("asd","вфыв",200)
+                new Question("asd","вфыв",200),
+                new Question("asd","вфыв",300),
+                new Question("asd","вфыв",400),
+                new Question("Кто я "," я футбольный мячик",100),
+                new Question("asd","вфыв",200),
+                new Question("asd","вфыв",300),
+                new Question("asd","вфыв",400),
+                new Question("Кто я "," я футбольный мячик",100),
+                new Question("asd","вфыв",200),
+                new Question("asd","вфыв",300),
+                new Question("asd","вфыв",400),
+                new Question("Кто я "," я футбольный мячик",100),
+                new Question("asd","вфыв",200),
+                new Question("asd","вфыв",300),
+                new Question("asd","вфыв",400),
+                new Question("Кто я "," я футбольный мячик",100),
+                new Question("asd","вфыв",200),
+                new Question("asd","вфыв",300),
+                new Question("asd","вфыв",400),
+                new Question("Кто я "," я футбольный мячик",100),
+                new Question("asd","вфыв",200),
+                new Question("asd","вфыв",300),
+                new Question("asd","вфыв",400),
+                new Question("Кто я "," я футбольный мячик",100),
+                new Question("asd","вфыв",200),
+                new Question("asd","вфыв",300),
+                new Question("asd","вфыв",400),
+
             };
         }
         
